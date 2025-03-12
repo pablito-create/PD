@@ -1,0 +1,9 @@
+*.class
+bin/
+
+.idea/
+*.iml
+*.vscode/
+
+*.log
+*.tmp
