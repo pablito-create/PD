@@ -1,6 +1,6 @@
 /*
  * Actualizar la clase Main
- * 
+ * @author:Pablo
  */
 public class Main {
     public static void main(String[] args) {
