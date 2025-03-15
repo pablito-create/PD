@@ -1,16 +1,20 @@
 /*Clase persona con atributos básicos
-*Encapsulación a atributos
+*Encapsulación a atributos y clase Persona
 * @author:daniel
+*
 */
-class Persona {
+public class Persona {
     private static String nombre = "SinNombre";
     private static int edad = 0;
     private static double salario = 0.0;
-
-    static void datos(String n, int e, double s) {
-        nombre = n;
-        edad = e;
-        salario = s;
+	/*Edición del constructor y nombre de atributos
+	*
+	*@author:Daniel
+	*/
+    public static void datos(String nombre, int edad, double salario) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.salario = salario;
     }
 
     static void mostrar() {
