@@ -1,4 +1,6 @@
-class A {
+//Clase persona con atributos básicos
+
+class Persona {
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
