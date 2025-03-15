@@ -6,7 +6,7 @@
 
 public class calcularBono{
 
-    private void calcularBono() {
+    public void calcularBono() {
         private double bono = 0;
         if (Persona.edad > 50) {
             bono = Persona.salario * 0.10;
